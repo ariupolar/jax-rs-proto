@@ -32,6 +32,6 @@ public class Hello {
     @Path("/html")
     @Produces(MediaType.TEXT_HTML)
     public String sayHtmlHello() {
-        return "<html> " + "<title>" + "Hello HTML Jersey" + "</title>" + "<body><h1>" + "Hello HTML Jersey" + "</body></h1>" + "</html> ";
+        return "<html> " + "<title>" + "Hello HTML Jersey" + "</title>" + "<body><h1>" + "Hello Html Jersey" + "</body></h1>" + "</html> ";
     }
 }
